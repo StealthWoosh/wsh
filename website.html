@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid Practice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body style="padding-bottom: 1000px;">
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="https://www.instagram.com/daffaaa_bd/" target="_blank">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    ">
+      <div style="height: 800px;" id="beranda">
+        <p class="teks" style="color:white">It's Me <strong class="daffa">Daffa</strong> Abdullah</p>
+        <p class="teks1" style="color:white">I'm Muhammad Daffa Abdullah and I do
+            Software Engineering, I'm also a 3D Model Amateur and Source
+            Filmmaker User focusing on creating image.
+        </p>
+      </div>
+
+      <div class="div2" style=" height: 800px;">
+        <img class="image" src="dapa.png">
+    </div>
+    </div>
+
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      column-gap: 20px;
+      row-gap: 40px;
+    ">
+      <div class="pilihan" style="height:800px;" id="tentang">
+        <div class="kotak1">
+            <img class="sertifikat" src="certificate.webp">
+            <p> Certificate of Achievement</p>
+            <p> All the achievement that Daffa have achieved</p>
+            <a class="button-p" id="tolong">Click Here</a>
+            <script src="script.js"></script>
+            
+        </div>
+        
+        <div class="kotak1">
+            <img class="sfm" src="image.png">
+            <p> All Source Filmmaker works</p>
+            <p> All the Image that Daffa have created in the past experience</p>
+            <a class="button-p" href="#sfmw">Click Here</a>
+        </div>
+        
+        <div class="kotak1">
+            <img class="organisasi" src="foto.jpg">
+            <p> Organization</p>
+            <p> All the Organization that Daffa have contributed to in the past experience</p>
+            <a class="button-p" id="saya">Click Here</a>
+        </div>
+        
+      </div>
+
+
+    </div>
+
+    <div class="pengurus" id="sfmw" style="height:800px;">
+     <p class="tampilan">Source Filmmaker Works</p> 
+    <div style="
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 40px;
+    ">
+
+      <div style="height: 200px;">
+         <img src="1.png" style="height: 200px; margin-left: 34px; border-radius: 20px;">
+      </div>
+      <div style="height: 200px;">
+        <img src="2.png" style="height: 200px; margin-left: 34px; border-radius: 20px;">
+      </div>
+      <div style="height: 200px;">
+        <img src="3.png" style="height: 200px; margin-left: 34px; border-radius: 20px;">
+      </div>
+      <div style="height: 200px;">
+        <img src="4.png" style="height: 200px; margin-left: 34px; border-radius: 20px;">
+      </div>
+      <div style="height: 200px;">
+        <img src="5.png" style="height: 200px; margin-left: 34px; border-radius: 20px;">
+      </div>
+      <div style="height: 200px;">
+        <img src="6.png" style="height: 200px; margin-left: 34px; border-radius: 20px;">
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

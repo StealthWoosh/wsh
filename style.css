@@ -1,0 +1,175 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        html {
+            scroll-behavior:smooth;
+        }
+
+
+        body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #0d0d0d;
+        }
+
+        header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: #0d0d0d;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          z-index: 1000; /* Pastikan header di atas elemen lain */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          border: solid;
+          border-color: rgb(37, 37, 37);
+          border-width: 1px;
+        }
+
+          nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0 0 0;
+          }
+
+          nav ul li {
+            display: inline;
+            margin: 0 15px;
+          }
+
+          nav ul li a {
+            color: white;
+            text-decoration: none;
+          }
+
+          nav ul li a:hover {
+            text-decoration: underline;
+          }
+
+          /* Contoh konten panjang agar bisa discroll */
+          main {
+            padding: 20px;
+          }
+
+        .teks {
+            text-align: center;
+            margin-top: 250px;
+            font-size: 50px;
+            font-family: Roboto;
+            margin-bottom: 0px;
+        }
+
+        .teks1 {
+            text-align:center;
+            margin-left: 75px;
+            width: 500px;
+        }
+
+        .image {
+            height: 700px;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-50px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .div2 {
+            text-align: center;
+        }
+
+        .kotak1 {   
+            width: 300px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+            padding: 20px;
+            margin: 10px;
+            margin-top: 100px;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            height: 500px;
+        }
+        .pilihan {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: #2d2d2d;
+        }
+
+        .sertifikat, .sfm, .organisasi{
+            width: 250px;
+            height: 193px;
+            display: inline-block;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .button-p {
+            border: none;
+            background-color: #004080;
+            height: 50px;
+            width: 200px;
+            display: inline-block;
+            line-height: 50px;
+            text-decoration: none;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: opacity 0.15s;
+        }
+
+        .button-p:hover {
+            opacity: 0.5;
+        }
+
+        .button-p:active {
+            opacity: 0.3;
+        }
+
+        .daffa {
+        font-size: 64px;
+        animation: colorRotate 6s linear 0s infinite;
+        }
+
+        @keyframes colorRotate {
+        from {
+            color: #6666ff;
+        }
+        10% {
+            color: #0099ff;
+        }
+        50% {
+            color: #00ff00;
+        }
+        75% {
+            color: #ff3399;
+        }
+        100% {
+            color: #6666ff;
+        }
+        }
+
+        .tampilan {
+            color: white;
+            font-size:40px;
+            font-family: Roboto;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 50px;
+        }
+
+        .pengurus {
+        }
